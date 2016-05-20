@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AnroidTest</string>
+    <string name="firstStr">欢迎使用Andrew 第一个app</string>
+</resources>
