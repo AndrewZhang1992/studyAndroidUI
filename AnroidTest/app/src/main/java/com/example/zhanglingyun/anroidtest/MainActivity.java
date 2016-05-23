@@ -55,6 +55,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         this.findViewById(R.id.pushRadidGroup).setOnClickListener(this);
 
+        // 下拉选择
+        this.findViewById(R.id.spinnerBtn).setOnClickListener(this);
+
+        // 搜索btn
+        this.findViewById(R.id.fileBtn).setOnClickListener(this);
+
     }
 
     @Override
@@ -69,6 +75,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivityForResult(intent,100);
             }
 
+                break;
+            case R.id.spinnerBtn:
+            {
+
+                Log.v("zhang","跳转下拉选择菜单");
+                Intent intent = new Intent(MainActivity.this,SpinnerActivity.class);
+                startActivity(intent);
+            }
+                break;
+            case R.id.fileBtn:
+            {
+                Log.v("zhang","跳转文件搜索");
+                Intent intent = new Intent(MainActivity.this,SeachFileActivity.class);
+                startActivity(intent);
+            }
                 break;
         }
     }

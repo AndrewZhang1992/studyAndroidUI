@@ -20,7 +20,9 @@
         <activity android:name=".RelativeLayoutActivity" />
         <activity android:name=".TableLayoutActivity" />
         <activity android:name=".CheckBoxActivity" />
-        <activity android:name=".RadioGroupActivity"></activity>
+        <activity android:name=".RadioGroupActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".SeachFileActivity"></activity>
     </application>
 
 </manifest>
