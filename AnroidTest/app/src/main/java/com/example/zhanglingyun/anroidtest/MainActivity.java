@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 搜索btn
         this.findViewById(R.id.fileBtn).setOnClickListener(this);
 
+        // 时钟
+        this.findViewById(R.id.timeClock).setOnClickListener(this);
+
     }
 
     @Override
@@ -89,6 +92,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.v("zhang","跳转文件搜索");
                 Intent intent = new Intent(MainActivity.this,SeachFileActivity.class);
                 startActivity(intent);
+            }
+                break;
+            case R.id.timeClock:
+            {
+                Log.v("zhang","跳转时钟");
+                startActivity(new Intent(MainActivity.this,TimeClockActivity.class));
             }
                 break;
         }

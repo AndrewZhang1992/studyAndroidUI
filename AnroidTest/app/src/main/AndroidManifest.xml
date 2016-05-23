@@ -22,7 +22,8 @@
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".RadioGroupActivity" />
         <activity android:name=".SpinnerActivity" />
-        <activity android:name=".SeachFileActivity"></activity>
+        <activity android:name=".SeachFileActivity" />
+        <activity android:name=".TimeClockActivity"></activity>
     </application>
 
 </manifest>
