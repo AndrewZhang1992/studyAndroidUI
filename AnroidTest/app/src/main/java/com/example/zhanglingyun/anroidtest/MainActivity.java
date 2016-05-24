@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button menuBtn;
     @InjectView(R.id.listviewBtn)
     Button listviewBtn;
+    @InjectView(R.id.noticationBtn)
+    Button noticationBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,6 +100,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         // listView
         listviewBtn.setOnClickListener(this);
+
+        noticationBtn.setOnClickListener(this);
     }
 
     @Override
@@ -134,10 +138,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, MenuActivity.class));
             }
             break;
-            case R.id.listviewBtn:
-            {
-                Log.v("zhang","跳转Listview");
-                startActivity(new Intent(MainActivity.this,ListViewActivity.class));
+            case R.id.listviewBtn: {
+                Log.v("zhang", "跳转Listview");
+                startActivity(new Intent(MainActivity.this, ListViewActivity.class));
+            }
+            break;
+            case R.id.noticationBtn: {
+                Log.v("zhang", "跳转Notication");
+                startActivity(new Intent(MainActivity.this, NoticationActivity.class));
             }
             break;
         }

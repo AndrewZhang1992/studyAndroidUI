@@ -25,7 +25,8 @@
         <activity android:name=".SeachFileActivity" />
         <activity android:name=".TimeClockActivity" />
         <activity android:name=".MenuActivity" />
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".NoticationActivity"></activity>
     </application>
 
 </manifest>
