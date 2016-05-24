@@ -23,7 +23,9 @@
         <activity android:name=".RadioGroupActivity" />
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".SeachFileActivity" />
-        <activity android:name=".TimeClockActivity"></activity>
+        <activity android:name=".TimeClockActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ListViewActivity"></activity>
     </application>
 
 </manifest>
