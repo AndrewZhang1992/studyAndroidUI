@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button listviewBtn;
     @InjectView(R.id.noticationBtn)
     Button noticationBtn;
+    @InjectView(R.id.userDBBtn)
+    Button userDBBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,6 +104,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         listviewBtn.setOnClickListener(this);
 
         noticationBtn.setOnClickListener(this);
+
+        // 使用db 实现 笔记本
+        userDBBtn.setOnClickListener(this);
     }
 
     @Override
@@ -146,6 +151,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.noticationBtn: {
                 Log.v("zhang", "跳转Notication");
                 startActivity(new Intent(MainActivity.this, NoticationActivity.class));
+            }
+            break;
+            case R.id.userDBBtn:{
+                Log.v("zhang","跳转db笔记本");
+                startActivity(new Intent(MainActivity.this,UserDBActivity.class));
             }
             break;
         }

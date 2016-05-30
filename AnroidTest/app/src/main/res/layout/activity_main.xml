@@ -96,7 +96,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/line1">
+        android:layout_below="@+id/line1"
+        android:id="@+id/line2"
+        >
 
         <Button
             android:id="@+id/menuBtn"
@@ -118,4 +120,15 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="使用sql实现笔记本"
+            android:id="@+id/userDBBtn"/>
+
+    </LinearLayout>
 </RelativeLayout>

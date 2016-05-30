@@ -26,7 +26,10 @@
         <activity android:name=".TimeClockActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".ListViewActivity" />
-        <activity android:name=".NoticationActivity"></activity>
+        <activity android:name=".NoticationActivity" />
+        <activity android:name=".UserDBActivity" />
+        <activity android:name=".NewNoteActivity" />
+        <activity android:name=".LookNoteActivity"></activity>
     </application>
 
 </manifest>

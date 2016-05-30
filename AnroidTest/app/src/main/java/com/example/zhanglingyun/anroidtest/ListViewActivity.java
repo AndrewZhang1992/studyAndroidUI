@@ -97,7 +97,6 @@ public class ListViewActivity extends AppCompatActivity {
         public View getView(int i, View view, ViewGroup viewGroup) {
 
 
-
             UserView userView;
             if (view==null)
             {
