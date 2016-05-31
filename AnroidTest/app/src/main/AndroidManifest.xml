@@ -29,7 +29,17 @@
         <activity android:name=".NoticationActivity" />
         <activity android:name=".UserDBActivity" />
         <activity android:name=".NewNoteActivity" />
-        <activity android:name=".LookNoteActivity"></activity>
+        <activity android:name=".LookNoteActivity" />
+        <activity android:name=".ContentProviderActivity"></activity>
+
+        <provider
+            android:authorities="com.example.zhanglingyun.main.provider.NoteContentProvider"
+            android:name="provider.NoteContentProvider"
+            android:exported="true"
+            >
+
+        </provider>
+
     </application>
 
 </manifest>

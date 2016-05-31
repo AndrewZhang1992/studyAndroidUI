@@ -130,5 +130,11 @@
             android:text="使用sql实现笔记本"
             android:id="@+id/userDBBtn"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ContentProvider"
+            android:id="@+id/contentProviderBtn"/>
+
     </LinearLayout>
 </RelativeLayout>

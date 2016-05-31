@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhanglingyun.anroidtest.ContentProviderActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本例简单使用ContentProvider"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorRed"/>
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加一个note"
+        android:id="@+id/addNoteBtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除最后一条note"
+        android:id="@+id/deleteLastBtn"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上面为同一个进程内访问contentprovider,如果想查看另外一个app 访问本app提供的contentProvider,可以打开另一个 新 工程 :  testContentProvider"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
