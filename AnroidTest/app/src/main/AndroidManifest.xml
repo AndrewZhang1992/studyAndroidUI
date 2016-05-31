@@ -30,7 +30,9 @@
         <activity android:name=".UserDBActivity" />
         <activity android:name=".NewNoteActivity" />
         <activity android:name=".LookNoteActivity" />
-        <activity android:name=".ContentProviderActivity"></activity>
+        <activity android:name=".ContentProviderActivity">
+
+        </activity>
 
         <provider
             android:authorities="com.example.zhanglingyun.main.provider.NoteContentProvider"
